@@ -12,6 +12,9 @@ class App < Sinatra::Base
     erb :index #renders my index page
   end
   
-  
+  post 'checkout' do 
+    
+    
+  end
   
 end
