@@ -4,11 +4,11 @@ class App < Sinatra::Base
   
   configure do
     enable :sessions
-    set :session_secret, "secret"
+    set :session_secret, "secret" #enables my session with the server
   end
   
   
-  get '/hey' do 
+  get '/' do 
     @session = session
   end
   
