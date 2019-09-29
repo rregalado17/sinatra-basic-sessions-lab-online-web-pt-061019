@@ -12,8 +12,5 @@ class App < Sinatra::Base
     @session = session
   end
   
-  post 'checkout'
   
-  
-  end 
 end
