@@ -11,4 +11,9 @@ class App < Sinatra::Base
   get '/hey' do 
     @session = session
   end
+  
+  post 'checkout'
+  
+  
+  end 
 end
