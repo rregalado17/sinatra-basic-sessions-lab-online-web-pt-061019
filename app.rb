@@ -9,8 +9,9 @@ class App < Sinatra::Base
   
   
   get '/' do 
-    @session = session
+    erb :index #renders my index page
   end
+  
   
   
 end
